@@ -9,7 +9,7 @@ app.use(express.urlencoded({extended: false}))
 
 // routes
 app.get('/', (req, res) => {
-    res.send('Hello NODE API')
+    res.send('Hello NODE API1')
 })
 
 app.get('/blog', (req, res) => {
